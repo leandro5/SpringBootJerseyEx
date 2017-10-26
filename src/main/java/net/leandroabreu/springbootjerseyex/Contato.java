@@ -16,6 +16,10 @@ public class Contato {
 	
 	private String nome;
 	private String email;
+	private String telefone;
+	private String endereco;
+	private String obs;
+	
 	public long getId() {
 		return id;
 	}
@@ -33,6 +37,24 @@ public class Contato {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	public String getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public String getObs() {
+		return obs;
+	}
+	public void setObs(String obs) {
+		this.obs = obs;
 	}
 	
 	
